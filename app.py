@@ -5,6 +5,9 @@ from PIL import Image
 import os
 import gdown
 
+
+os.system('pip install tensorflow==2.12.0 gdown numpy pillow')
+
 model_path = "transfer_model.keras"
 if not os.path.exists(model_path):
     url = "https://drive.google.com/uc?id=1CrXhoOBd8-ZAoVCfRJi_zc2rOwa3eShy"
